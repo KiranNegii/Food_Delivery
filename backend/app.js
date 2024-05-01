@@ -10,7 +10,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: 'https://main--kiran-fooddelivery.netlify.app/',
+    origin: 'https://main--kiran-fooddelivery.netlify.app',
     methods: "POST",
     credentials: true,
   })
